@@ -1,0 +1,27 @@
+{
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "editor.formatOnSave": true,
+  "javascript.format.enable": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit"
+  },
+  "eslint.options": {
+    "extensions": [".js", ".jsx", ".md", ".mdx", ".ts", ".tsx"]
+  },
+  "eslint.validate": [
+    "markdown",
+    "mdx",
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "cSpell.ignoreWords": [],
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "cSpell.words": [], // add any custom words you want to ignore
+  "[svg]": {
+    "editor.defaultFormatter": "jock.svg"
+  }
+}

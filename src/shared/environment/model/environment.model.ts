@@ -1,0 +1,5 @@
+export const isLocal = import.meta.env.REACT_APP_ENV === 'local'
+export const isProd = import.meta.env.REACT_APP_ENV === 'production'
+export const isDev = import.meta.env.REACT_APP_ENV !== 'production'
+export const baseServerUrl = import.meta.env.REACT_APP_SERVER_BASE_URL || ''
+export const baseClientUrl = import.meta.env.REACT_APP_CLIENT_BASE_URL || ''
